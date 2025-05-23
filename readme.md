@@ -1,7 +1,7 @@
 # 🚀 Consignes
 
 Premiers exercices de Javascript 
-> Exo Objects & Class & Constructor
+> Event on scroll, scrollSpy
 
 ## 📦 Technologies utilisées
 
