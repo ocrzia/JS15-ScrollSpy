@@ -10,4 +10,4 @@ Premiers exercices de Javascript
 
 ## 🖼️ Aperçu visuel (optionnel)
 
-[Live Demo](https://ocrzia.github.io/JS14-Objects-knights/)
+[Live Demo](https://ocrzia.github.io/JS15-ScrollSpy/)
