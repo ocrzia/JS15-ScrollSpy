@@ -1,0 +1,72 @@
+html {
+  box-sizing: border-box;
+}
+*, *:before, *:after {
+  box-sizing: inherit;
+}
+body, html, header {
+	height: 100%;
+}
+header {
+	background: url('https://images3.alphacoders.com/672/672745.jpg') center;
+	background-size: cover;
+}
+main {
+	max-width: 95%;
+	margin: auto;
+	padding: 0 50px;
+}
+h1 {
+	font-family: 'Patua One', cursive;
+	font-size: 50px;
+	font-weight: normal;
+	text-align: center;
+	margin: 50px 0;
+}
+.gradient {
+	background: linear-gradient(to bottom right, rgba(255,251,213, 0.50), rgba(178, 10,44, 1)); /* Chrome 10-25, Safari 5.1-6 */
+	width: 100%;
+	position: absolute;
+	height: 100%;
+	top: 0;
+	left: 0;
+	opacity: 0;
+}
+header {
+    position: relative;
+}
+section {
+    height: 100vh;
+}
+#portfolio {
+    background:skyblue;
+}
+#moi {
+    background:crimson;
+}
+#contact {
+    background:yellowgreen;
+}
+nav {
+    position: fixed;
+    padding:20px 0;
+    display: flex;
+    flex-direction:column;
+    right:-25px;
+    top:50%;
+    transform:translateY(-50%);
+    box-shadow:0 20px 20px rgba(0,0,0,0.02);
+    transition:.3s all ease-in-out;
+    a {
+        text-decoration: none;
+        font-family: 'Patua One', cursive;
+        color:#303030;
+        text-align: center;
+        height: 100px;
+        transform:rotate(-90deg);
+        transition:.3s all ease-in-out;
+        &.active {
+            color:orangered;
+        }
+    }
+}
